@@ -1,0 +1,7 @@
+# reactivity
+响应性核心
+
+构建reactive函数 触发createReactiveObject
+在触发createReactiveObject里构建proxy 通过proxy监听代理对象触发handler
+
+构建effect函数 生成ReactiveEffect实例 接受一个构造函数传入fn()函数
